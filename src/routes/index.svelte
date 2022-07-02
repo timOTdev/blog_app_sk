@@ -1,4 +1,6 @@
 <script>
+  import Title from '$lib/title.svelte';
+
   let title = 'My Sveltekit Page';
 
   const updateTitle = () => {
@@ -6,6 +8,7 @@
   };
 </script>
 
+<Title />
 <div class="index">
   <h2>{title}</h2>
   <p>
