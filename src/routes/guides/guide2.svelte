@@ -13,7 +13,4 @@
     Try editing the files to get a feel for how everything works you may not
     need to bother reading the rest of this guide!
   </p>
-
-  <li><a href="/">Home</a></li>
-  <li><a href="/guides">Guides</a></li>
 </div>

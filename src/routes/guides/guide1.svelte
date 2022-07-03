@@ -6,7 +6,4 @@
     FAQ for pointers on setting up additional tooling. The subsequent commands
     will then install its dependencies and start a server on localhost:3000.
   </p>
-
-  <li><a href="/">Home</a></li>
-  <li><a href="/guides">Guides</a></li>
 </div>
