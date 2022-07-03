@@ -1,8 +1,3 @@
-<script>
-  import Title from '$lib/title.svelte';
-</script>
-
-<Title title="Want to Learn?" />
 <div class="guides">
   <h2>Svelte Guides</h2>
   <ul>

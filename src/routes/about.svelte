@@ -1,8 +1,3 @@
-<script>
-  import Title from '$lib/title.svelte';
-</script>
-
-<Title title="Who are we?" />
 <div class="about">
   <h2>About Svelte</h2>
   <p>
