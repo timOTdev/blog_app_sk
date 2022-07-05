@@ -13,13 +13,14 @@
     }
 
     return {
-      status: 301,
-      redirect: '/guides',
+      // If you want to redirect after any errors.
+      // status: 301,
+      // redirect: '/guides',
 
-      // // If we want to error instead of redirect.
-      // // Uses default error page from .svelte-kit/runtime/components/error.svelte
-      // status: res.status,
-      // error: new Error('Could not fetch that guide'),
+      // If we want to error instead of redirect. This sends out a custom message also.
+      // The default error page: .svelte-kit/runtime/components/error.svelte
+      status: res.status,
+      error: new Error('Could not fetch that guide'),
     };
   }
 </script>
